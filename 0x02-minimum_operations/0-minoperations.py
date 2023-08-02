@@ -1,3 +1,9 @@
+#!/bin/python3
+"""
+	An interview challenge
+"""
+
+
 def minOperations(n):
     """
     A function which returns the fewest operations needed to get 'n' occurrences of H in a file using copy & paste operations.
@@ -27,4 +33,4 @@ def minOperations(n):
             operations += 1
 
     return operations
-
+print(minOperations(9))
